@@ -101,7 +101,7 @@ export class UserService {
 
         // Send OTP via Twilio
         try {
-            const fromPhone = process.env.TWILIO_PHONE_NUMBER; // Twilio phone number
+            // const fromPhone = process.env.TWILIO_PHONE_NUMBER; // Twilio phone number
             const messagingServiceSid = process.env.MESSAGE_SERVICE_ID;
 
             if (!messagingServiceSid) {
